@@ -1,0 +1,10 @@
+<html>
+<script>
+  var urlParams = new URLSearchParams(window.location.search);
+  document.getElementById("skypeLink").innerHTML = "<a href=""skype:""" + urlParams.username + "?call"">Talk now</a>"
+  
+</script>
+<body>
+  <span id="skypeLink"></span>
+</body>
+</html>
